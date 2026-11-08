@@ -16,7 +16,7 @@ jobs:
       matrix: ${{ steps.set-matrix.outputs.MATRIX }}
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Generate matrix
         id: set-matrix
@@ -36,7 +36,7 @@ jobs:
         directory: ${{ fromJson(needs.generate-matrix.outputs.MATRIX) }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 1
 
