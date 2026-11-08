@@ -150,7 +150,7 @@
   },
   "devDependencies": {
     "@4tw/cypress-drag-drop": "2.2.5",
-    "@cypress/code-coverage": "3.12.41",
+    "@cypress/code-coverage": "4.1.3",
     "@types/webpack-dev-server": "4.7.1",
     "@typescript-eslint/eslint-plugin": "7.16.0",
     "@typescript-eslint/parser": "7.16.0",
