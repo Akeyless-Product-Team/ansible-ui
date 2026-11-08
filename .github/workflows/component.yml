@@ -62,7 +62,7 @@ jobs:
         run: npm ci
 
       - name: Cypress
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
         with:
           install: false
           component: true
