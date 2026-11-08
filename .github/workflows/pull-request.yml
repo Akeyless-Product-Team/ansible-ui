@@ -20,7 +20,7 @@ jobs:
         run: npm version 0.0.0 --no-git-tag-version
       - name: Cache dependencies
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: |
             ./node_modules
@@ -43,7 +43,7 @@ jobs:
         run: npm version 0.0.0 --no-git-tag-version
       - name: Cache dependencies
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: |
             ./node_modules
