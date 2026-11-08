@@ -138,7 +138,7 @@
     "set-value": "4.1.0",
     "style-loader": "4.0.0",
     "styled-components": "6.1.11",
-    "swr": "2.2.5",
+    "swr": "2.5.1",
     "type-fest": "4.21.0",
     "typescript": "5.5.3",
     "typescript-plugin-styled-components": "3.0.0",
