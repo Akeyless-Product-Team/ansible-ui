@@ -111,7 +111,7 @@
     "debounce": "2.1.0",
     "favicons-webpack-plugin": "^6.0.1",
     "get-value": "3.0.1",
-    "html-webpack-plugin": "5.6.0",
+    "html-webpack-plugin": "5.6.8",
     "i18next": "23.11.5",
     "i18next-browser-languagedetector": "7.2.1",
     "i18next-http-backend": "2.5.2",
